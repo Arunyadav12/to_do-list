@@ -1,0 +1,62 @@
+.container{
+    height: 500px;
+    width: 100%;   
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height: 300px;
+    width: 300px;   
+    background: rgb(186, 179, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease-in-out;
+
+
+}
+.box:hover{
+    /* transform: rotate(45deg); */
+    /* transform: skew(40deg);  tadah karta hai property */
+    /* transform: scale(-1); */
+    /* transform: translateX(125px); */
+     /* transform: translateY(125px); */
+      transform: translate(125px , 125px);
+}
+
+.container1{
+    margin-top: 121px;
+    height: 500px;
+    width: 100%;   
+    background: rgb(199, 139, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1{
+    height: 300px;
+    width: 300px;   
+    background: rgb(179, 245, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease-in-out;
+
+
+}
+
+
+.box1:hover{
+    /* transform: rotate(45deg); */
+    /* transform: skew(40deg);  tadah karta hai property */
+    /* transform: scale(-1); */
+    /* transform: translateX(125px); */
+     /* transform: translateY(125px); */
+      /* transform: translate(125px , 125px); */
+}
